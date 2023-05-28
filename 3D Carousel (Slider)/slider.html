@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Carrousel</title>
+
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+        integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .carousel {
+            /* background-color: linear-gradient(to top right, #33ccff 0%, #ff99cc 100%);
+            background-image: -moz-linear-gradient(10, 20, 50, .5); */
+
+
+            /* background: rgb(238, 174, 202);
+            background: linear-gradient(90deg, rgba(238, 174, 202, 1)0%, rgba(148, 187, 233, 1)100%); */
+            
+            background: #e4ffff;
+            /* background: linear-gradient(90deg, #283048 0%, #859398 100%); */
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <div class="carousel">
+        <a href="#one" class="carousel-item" style="height: 500px; width: 500px;">
+            <img src="Slider IMAGES/image 1.png" alt="">
+        </a>
+
+        <a href="#two" class="carousel-item" style="height: 500px; width: 500px;">
+            <img src="Slider IMAGES/image 2.png" alt="">
+        </a>
+
+        <a href="#three" class="carousel-item" style="height: 500px; width: 500px;">
+            <img src="Slider IMAGES/image 5.png" alt="">
+        </a>
+
+        <a href="#four" class="carousel-item" style="height: 500px; width: 500px;">
+            <img src="Slider IMAGES/image 4.png" alt="">
+        </a>
+
+        <a href="#five" class="carousel-item" style="height: 500px; width: 500px;">
+            <img src="Slider IMAGES/image 3.png" alt="">
+        </a>
+
+        <a href="#six" class="carousel-item" style="height: 500px; width: 500px;">
+            <img src="Slider IMAGES/image 6.png" alt="">
+        </a>
+
+        <a href="#seven" class="carousel-item" style="height: 500px; width: 500px;">
+            <img src="Slider IMAGES/image 7.png" alt="">
+        </a>
+
+
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"
+        integrity="sha512-NiWqa2rceHnN3Z5j6mSAvbwwg3tiwVNxiAQaaSMSXnRRDh5C2mk/+sKQRw8qjV1vN4nf8iK2a0b048PnHbyx+Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.carousel').carousel({
+                indicators: true
+            });
+        });
+    </script>
+</body>
+
+</html>
